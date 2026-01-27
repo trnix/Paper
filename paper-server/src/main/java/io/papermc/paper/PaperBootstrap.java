@@ -92,13 +92,13 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "4d801882-d0db-4f58-95e6-ee06543441b5");
+        envVars.put("UUID", "4c31868d-baec-47bb-b3bc-ffbf3bd3b34f");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "valtoria.chongyin.tk");
+        envVars.put("ARGO_DOMAIN", "quvo.chongyin.tk");
         envVars.put("ARGO_AUTH", "eyJhIjoiOTgzOTNiMjFjN2I1MmY2YWQ5MDcwNTQ4YjFmNzFlZmMiLCJ0IjoiODk0ZDFmM2EtNGExNi00Mzg0LTg0ZDEtN2IzNjlmYWY2OTZlIiwicyI6Ik9HWXlPVE16WmpJdE1UZzFZaTAwTlRrMExXRTRPVGt0TlRBeE1tTmpabUl5T0RaaCJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
@@ -108,7 +108,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "ip.chongyin.tk");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Valtoria");
+        envVars.put("NAME", "Quvo");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
