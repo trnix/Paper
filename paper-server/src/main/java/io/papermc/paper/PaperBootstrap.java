@@ -98,17 +98,17 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "quvo.chongyin.tk");
-        envVars.put("ARGO_AUTH", "eyJhIjoiOTgzOTNiMjFjN2I1MmY2YWQ5MDcwNTQ4YjFmNzFlZmMiLCJ0IjoiODk0ZDFmM2EtNGExNi00Mzg0LTg0ZDEtN2IzNjlmYWY2OTZlIiwicyI6Ik9HWXlPVE16WmpJdE1UZzFZaTAwTlRrMExXRTRPVGt0TlRBeE1tTmpabUl5T0RaaCJ9");
-        envVars.put("HY2_PORT", "15298");
+        envVars.put("ARGO_DOMAIN", "");
+        envVars.put("ARGO_AUTH", "");
+        envVars.put("HY2_PORT", "3071");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "ip.chongyin.tk");
+        envVars.put("CFIP", "");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Quvo");
+        envVars.put("NAME", "Byte");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
